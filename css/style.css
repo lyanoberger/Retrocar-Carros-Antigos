@@ -4,3 +4,18 @@
 @import "/utilidades/componentes.css";
 @import "/utilidades/tipografia.css";
 @import "/utilidades/cores.css";
+@import "/css/bicicletas-lista.css";
+
+.logo {
+  max-width: 400px;
+  max-height: 100px;
+  margin: 0;
+}
+.logo:hover {
+  transform: scale(1.2);
+}
+
+.opala:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
