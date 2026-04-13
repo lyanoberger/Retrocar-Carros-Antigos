@@ -1,0 +1,56 @@
+.bicicletas-lista {
+  h2 {
+    margin-left: 200px;
+  }
+}
+.alinhamento-carros {
+  display: flex;
+  justify-content: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin: 40px;
+  margin-top: 50px;
+  max-width: 1200px;
+
+  img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+}
+
+.grid.div {
+  margin: 0 auto;
+  align-items: center;
+  position: absolute;
+}
+
+.grid div span::before {
+  content: " ";
+  width: 12px;
+  height: 4px;
+  background-color: var(--cor-p1);
+  display: inline-block;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.grid div:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+.Titulocarros {
+  margin-left: 200px;
+}
+
+@media (max-width: 800px) {
+  .bicicletas-lista {
+    padding-bottom: 60px;
+  }
+  .bicicletas-lista ul {
+    gap: 20px;
+  }
+}
