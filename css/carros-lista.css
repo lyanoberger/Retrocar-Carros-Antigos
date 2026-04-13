@@ -30,8 +30,8 @@
 
 .grid div span::before {
   content: " ";
-  width: 12px;
-  height: 4px;
+  width: 6px;
+  height: 6px;
   background-color: var(--cor-p1);
   display: inline-block;
   align-items: center;
@@ -44,6 +44,11 @@
 }
 .Titulocarros {
   margin-left: 200px;
+}
+
+.detalhe-carro {
+  color: var(--cor-p1);
+  font-size: 1.4rem;
 }
 
 @media (max-width: 800px) {
