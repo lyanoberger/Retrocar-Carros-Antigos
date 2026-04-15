@@ -5,7 +5,8 @@
 @import "/utilidades/tipografia.css";
 @import "/utilidades/cores.css";
 @import "/css/carros-lista.css";
-
+@import "/home/tecnologia.css";
+ 
 .logo {
   max-width: 400px;
   max-height: 100px;

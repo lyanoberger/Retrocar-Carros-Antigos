@@ -55,7 +55,25 @@
   .bicicletas-lista {
     padding-bottom: 60px;
   }
-  .bicicletas-lista ul {
+  .grid  {
     gap: 20px;
   }
+  .bicicletas-lista {
+  h2 {
+    margin: 0;
+    text-align: center;
+    margin-top: 60px;
+  
+  }
+   }
+  .grid {
+  display: grid;
+  grid-template-columns: 1fr ;
+  gap: 60px;
+  margin: 40px;
+  margin-top: 70px;
+  max-width: 600px;
 }
+}
+
+  
