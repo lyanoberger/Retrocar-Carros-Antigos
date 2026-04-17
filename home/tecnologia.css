@@ -49,6 +49,23 @@
     width: 24px;
     margin-bottom: 8px;
 }
+@media(max-width:1400px){
+    .tecnologia{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 700px;
+}
+@media(max-width:1000px){
+    .tecnologia{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr ;
+    gap: 20px;
+    max-width: 500px;
+    .tecnologia-imagem{display: none;}
+}
+}
 @media(max-width:800px){
     .tecnologia-bg{
         box-shadow: initial;
@@ -67,8 +84,16 @@
     margin-bottom: 60px;
 }
 }
-@media(max-width:600px){
+@media(max-width:700px){
     .tecnologia-vantagens   {
         flex-direction: column;
     }
+}
+@media(max-width:600px){
+    .tecnologia{
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 10px;
+    max-width: 400px;
+    margin-left: 100px;
 }
