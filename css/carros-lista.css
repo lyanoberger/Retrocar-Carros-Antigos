@@ -1,4 +1,4 @@
-.bicicletas-lista {
+.carros-lista {
   h2 {
     margin-left: 200px;
   }
@@ -52,7 +52,7 @@
 }
 
 @media (max-width: 800px) {
-  .bicicletas-lista {
+  .carros-lista {
     padding-bottom: 60px;
   }
   .grid  {
