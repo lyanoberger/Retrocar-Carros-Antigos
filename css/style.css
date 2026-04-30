@@ -8,8 +8,9 @@
 @import "/home/tecnologia.css";
 @import "/home/parceiros.css";
 @import "/home/depoimento.css";
+@import "/home/seguros.css";
+@import "/home/footer.css";
 
- 
 .logo {
   max-width: 400px;
   max-height: 100px;
@@ -23,4 +24,3 @@
   transform: scale(1.05);
   transition: 1s;
 }
-
